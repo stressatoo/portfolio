@@ -1,11 +1,6 @@
 import { NameTyping } from "@/components/dashboard/NameTyping";
 import SocialButtons from "@/components/dashboard/SocialButtons";
 import { TypographyLead } from "@/components/ui/typography";
-import { Instagram } from "lucide-react";
-
-const redirectTo = (url: string) => {
-  window.open(url, "_blank");
-};
 
 const DashboardPage = () => {
   return (
